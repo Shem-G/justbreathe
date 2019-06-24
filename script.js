@@ -4,7 +4,6 @@ function showShallow(){
     document.getElementsByClassName("dot")[0].classList.add("dot-simple-shallow")
     document.getElementById("shallow-button").classList.remove("text-gray")
     document.getElementById("show-text").innerHTML = 'Shallow <i class="icon icon-arrow-right mr-1 text-primary"></i>'
-    console.log("Showing Shallow")
 }
 
 function showMid(){
@@ -13,7 +12,6 @@ function showMid(){
     document.getElementsByClassName("dot")[0].classList.add("dot-simple-mid")
     document.getElementById("mid-button").classList.remove("text-gray")
     document.getElementById("show-text").innerHTML = 'Mid <i class="icon icon-arrow-right mr-1 text-primary"></i>'
-    console.log("Showing Mid")
 }
 
 function showDeep(){
@@ -22,7 +20,6 @@ function showDeep(){
     document.getElementsByClassName("dot")[0].classList.add("dot-simple-deep")
     document.getElementById("deep-button").classList.remove("text-gray")
     document.getElementById("show-text").innerHTML = 'Deep <i class="icon icon-arrow-right mr-1 text-primary"></i>'
-    console.log("Showing Deep")
 }
 
 function hideShallow(){
