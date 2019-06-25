@@ -3,15 +3,7 @@
     width: 40vh;
     border-radius: 50%;
     transform: scale(0.3);
-    /*background-color: #03396c;*/
-    /*background: #03396c url("img/circle-bg.png");*/
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#37408b+0,669fcd+100 */
-    background: #37408b; /* Old browsers */
-    background: -moz-linear-gradient(45deg,  #37408b 0%, #669fcd 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,  #37408b 0%,#669fcd 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,  #37408b 0%,#669fcd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37408b', endColorstr='#669fcd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    background-color: #49477F;
     max-width: 100%;
   }
 
@@ -19,20 +11,21 @@
     height: 40vh;
     width: 40vh;
     border-radius: 50%;
-    background-image: url("img/white-bg.png");
+    background-color: #F8F8F8;
   }
 
   .tiny-dot {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: #03396c;
+    background-color: #49477F;
     animation: simple-shallow 10s ease-in-out alternate infinite;
   }
 
 .dot-container {
     width: 100%;
     height: 100%;
+    
 }
 
 .navbar {
@@ -71,70 +64,70 @@ footer{
 
 @-webkit-keyframes simple-shallow {
     0% {
-        /* background-color: #03396c; */
+        background-color: #49477F;
         transform: scale(0.3);
     }
 
     10% {
-        /* background-color: #03396c; */
+        background-color: #49477F;
         transform: scale(0.3);
     }
 
     45% {
         transform: scale(1);
-        /* background-color: #b3cde0; */
+        background-color: #C0C7E0;
     }
 
     50% {
         transform: scale(1);
-        /* background-color: #b3cde0; */
+        background-color: #C0C7E0;
     }
 
     55% {
         transform: scale(1);
-        /* background-color: #b3cde0; */
+        background-color: #C0C7E0;
     }
 
     95% {
-        /* background-color: #03396c; */
+        background-color: #49477F;
         transform: scale(0.3);
     }
     
     100% {
-        /* transform: scale(0.3); */
-        background-color: #03396c;
+        transform: scale(0.3);
+        background-color: #49477F;
     }
 }
 
 @keyframes simple-shallow {
     0% {
-        /* background-color: #03396c; */
+        background-color: #49477F;
         transform: scale(0.3);
     }
 
     10% {
-        /* background-color: #03396c; */
+        background-color: #49477F;
         transform: scale(0.3);
     }
 
     45% {
         transform: scale(1);
-        /* background-color: #b3cde0; */
+        background-color: #C0C7E0;
     }
 
     50% {
         transform: scale(1);
-        /* background-color: #b3cde0; */
+        background-color: #C0C7E0;
         
     }
 
     55% {
         transform: scale(1);
-        /* background-color: #b3cde0; */
+        background-color: #C0C7E0;
     }
 
     95% {
-        /* background-color: #03396c; */
+        background-color: #49477F;
         transform: scale(0.3);
     }
     
