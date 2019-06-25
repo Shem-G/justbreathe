@@ -3,7 +3,8 @@
     width: 40vh;
     border-radius: 50%;
     transform: scale(0.3);
-    background-color: #03396c;
+    /*background-color: #03396c;*/
+    background: #03396c url("circle-bg.png");
     max-width: 100%;
   }
 
@@ -11,7 +12,7 @@
     height: 40vh;
     width: 40vh;
     border-radius: 50%;
-    background-color: #f9f9f9;
+    background-image: url("white-bg.png");
   }
 
   .tiny-dot {
